@@ -1,0 +1,17 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("jomong hack", "DarkTheme")
+local Tab = Window:NewTab("xeno online 2 script")
+
+local Section = Tab:NewSection("xeno online 2 scripts")
+Section:NewButton("xeno online 2", "nigger", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/broreallyplayingthisgame/whitelisted/main/xeno%20online.lua"))()
+end)
+local Tab = Window:NewTab("admin command yield")
+local Section = Tab:NewSection("admin commands")
+Section:NewButton("admin command yield", "this is admin comand", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local Tab = Window:NewTab("credit")
+local Section = Tab:NewSection("owner|Jomong us#5058")
+local Section = Tab:NewSection("dev|catinhat#0001")
