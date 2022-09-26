@@ -62,6 +62,11 @@ Section:NewButton("shindo life script", "naruto is mid asf", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
 end)
 
+local Section = Tab:NewSection("demon fall")
+Section:NewButton("demon fall script", "donut boy", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
+end)
+
 local Tab = Window:NewTab("credit")
 local Section = Tab:NewSection("owner|Jomong us#5058")
 local Section = Tab:NewSection("dev|catinhat#0001")
