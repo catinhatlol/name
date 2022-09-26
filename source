@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("jomong hub", "BloodTheme")
+local Window = Library.CreateLib("jomong hub", "Serpent")
 local Tab = Window:NewTab("info about the scripts")
 local Section = Tab:NewSection("dm catinhat#0001 if u want any script to be added")
 local Section = Tab:NewSection("not our scripts we just put alot of scripts i hope u enjoy")
@@ -67,7 +67,7 @@ local Section = Tab:NewSection("owner|Jomong us#5058")
 local Section = Tab:NewSection("dev|catinhat#0001")
 
 local Tab = Window:NewTab("keybind")
-local Section = Tab:NewSection("P to close and open the UI")
+local Section = Tab:NewSection("p to close and open the UI")
 
 Section:NewKeybind("press P to close the UI", "close and open UI", Enum.KeyCode.P, function()
 	Library:ToggleUI()
