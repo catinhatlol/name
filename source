@@ -67,6 +67,11 @@ Section:NewButton("demon fall script", "donut boy", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
 end)
 
+local Section = Tab:NewSection("aut")
+Section:NewButton("aut script", "if ur bad use this to win", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TweedLeak/Scripts/main/A-Universal-Time"))()
+end)
+
 local Tab = Window:NewTab("credit")
 local Section = Tab:NewSection("owner|Jomong us#5058")
 local Section = Tab:NewSection("dev|catinhat#0001")
