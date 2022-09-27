@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("jomong hub", "Serpent")
+local Window = Library.CreateLib("jomong hub", "Ocean")
 local Tab = Window:NewTab("info about the scripts")
 local Section = Tab:NewSection("dm catinhat#0001 if u want any script to be added")
 local Section = Tab:NewSection("not our scripts we just put alot of scripts i hope u enjoy")
