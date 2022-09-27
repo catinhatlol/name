@@ -44,7 +44,7 @@ end)
 
 local Section = Tab:NewSection("dragon ball final script")
 Section:NewButton("dragon ball final script", "get stronger kid", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/32"))()
+    loadstring(game:HttpGet(("https://aizen.ml/weis/DBFinalR.lua")))()--Weismann#8896   
 end)
 
 local Section = Tab:NewSection("script for doors")
@@ -70,6 +70,7 @@ Section:NewButton("aut script", "if ur bad use this to win", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TweedLeak/Scripts/main/A-Universal-Time"))()
 end)
 end)
+
 local Tab = Window:NewTab("credit")
 local Section = Tab:NewSection("owner|Jomong us#5058")
 local Section = Tab:NewSection("dev|catinhat#0001")
