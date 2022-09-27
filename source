@@ -78,6 +78,6 @@ local Section = Tab:NewSection("dev|catinhat#0001")
 local Tab = Window:NewTab("keybind")
 local Section = Tab:NewSection("p to close and open the UI")
 
-Section:NewKeybind("press P to close the UI", "close and open UI", Enum.KeyCode.P, function()
+Section:NewKeybind("press P to close the UI", "close and open UI", Enum.KeyCode.U, function()
 	Library:ToggleUI()
 end)
