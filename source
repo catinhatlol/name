@@ -34,7 +34,7 @@ end)
 
 local Section = Tab:NewSection("da hood hacks")
 Section:NewButton("da hood script", "fly around lol", function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/PolarWasHere/Arctic/main/Arctic"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
 
 local Section = Tab:NewSection("the one piece is REAL")
